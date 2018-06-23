@@ -6,7 +6,9 @@
 //  Copyright © 2018 Tina Huang. All rights reserved.
 //
 
+//still does not scale properly to ipad and iphone X
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController {
     var currentValue = 0
@@ -90,8 +92,14 @@ class ViewController: UIViewController {
     @IBAction func startOver() {
         startNewGame()
         updateLabels()
+        
+        let transition = CATransition()
+        transition.type = kCATransitionFade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name:
+                                        kCAMediaTimingFunctionEaseOut)
+        view.layer.add(transition, forKey: nil)
     }
-    
     
     func startNewRound() {
         targetValue = 1 + Int(arc4random_uniform(100))
@@ -105,6 +113,7 @@ class ViewController: UIViewController {
         round = 0
         startNewRound()
     }
+    
     func updateLabels() {
         targetLabel.text = String(targetValue)
         scoreLabel.text = String(score)

@@ -11,9 +11,9 @@
 		2666077B20D88AE50061119B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2666077A20D88AE50061119B /* ViewController.swift */; };
 		2666077E20D88AE50061119B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2666077C20D88AE50061119B /* Main.storyboard */; };
 		2666078020D88AE80061119B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2666077F20D88AE80061119B /* Assets.xcassets */; };
-		2666078320D88AE80061119B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2666078120D88AE80061119B /* LaunchScreen.storyboard */; };
 		2666078B20DC797C0061119B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2666078A20DC797C0061119B /* AboutViewController.swift */; };
 		2666078D20DDF7DE0061119B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 2666078C20DDF7DE0061119B /* BullsEye.html */; };
+		2666078F20DEB6F10061119B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2666078E20DEB6F10061119B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		2666077A20D88AE50061119B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2666077D20D88AE50061119B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2666077F20D88AE80061119B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2666078220D88AE80061119B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2666078420D88AE80061119B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2666078A20DC797C0061119B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		2666078C20DDF7DE0061119B /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		2666078E20DEB6F10061119B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +58,13 @@
 		2666077720D88AE50061119B /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				2666078E20DEB6F10061119B /* Default-568h@2x.png */,
 				2666078C20DDF7DE0061119B /* BullsEye.html */,
 				2666077820D88AE50061119B /* AppDelegate.swift */,
 				2666077A20D88AE50061119B /* ViewController.swift */,
 				2666078A20DC797C0061119B /* AboutViewController.swift */,
 				2666077C20D88AE50061119B /* Main.storyboard */,
 				2666077F20D88AE80061119B /* Assets.xcassets */,
-				2666078120D88AE80061119B /* LaunchScreen.storyboard */,
 				2666078420D88AE80061119B /* Info.plist */,
 			);
 			path = BullsEye;
@@ -128,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2666078320D88AE80061119B /* LaunchScreen.storyboard in Resources */,
 				2666078D20DDF7DE0061119B /* BullsEye.html in Resources */,
+				2666078F20DEB6F10061119B /* Default-568h@2x.png in Resources */,
 				2666078020D88AE80061119B /* Assets.xcassets in Resources */,
 				2666077E20D88AE50061119B /* Main.storyboard in Resources */,
 			);
@@ -157,14 +157,6 @@
 				2666077D20D88AE50061119B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2666078120D88AE80061119B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2666078220D88AE80061119B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539LP6GN4U;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539LP6GN4U;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
